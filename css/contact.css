@@ -1,0 +1,28 @@
+.fo
+{
+  position: absolute;
+  box-shadow: 9px 6px 8px 0 rgba(0,0,0,0.2);
+  border:none;
+  background-color:#ad93cc;
+  width: 400px;
+  height: 455px;
+  top:50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  text-align:center;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px;
+}
+.form_content{
+    padding: 10px;
+}
+
+.input_box
+{
+  padding: 12px;
+  background-color: whitesmoke;
+  font-size:20px;
+  border-radius:5px;
+  border: none;
+}

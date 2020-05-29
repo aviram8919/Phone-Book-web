@@ -1,0 +1,98 @@
+.accordion{
+    max-width: 500px;
+    overflow: hidden;
+    font-family: 'Quicksand', sans-serif;
+    background: #fff;
+    border: 1px solid #333;
+}
+
+.accordion__lable,
+.accordion__content{
+    padding:14px 20px;
+}
+
+.accordion__label{
+    display: block;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    transition: background 0.1s;
+}
+
+.accordion__label::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 6px;
+    background-image: url('data:image/svg+xml;utf8,<svg width="100" height="50" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 100,0 50,50" style="fill:%28FFFFFF99;" /></svg>');
+    background-size: contain;
+    transition: transform 0.4s;
+}
+
+.accordion__content{
+    background: rgba(220, 213, 226, 0.986);
+    line-height: 1.6;
+    font-size: 0.85em;
+    display: none;
+}
+
+.accordion__input{
+    display: none;
+}
+
+.accordion__input:checked ~ .accordion__content{
+    display: block;
+}
+
+.accordion__input:checked ~ .accordion__label::after{
+    transform: translateY(-50%) rotate(0.5turn);
+}
+
+.flex_content{
+    display: flex;
+    padding:10px;
+    display: block;
+}
+table{
+    border: 2px solid #333;
+    padding: 20px;
+}
+td{
+    margin: 5px;
+}
+#Add_icon img
+{
+    float: right;
+}
+#edit{
+    padding:5px 10px 12px 10px;
+    background-color:rgb(172, 172, 226);
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+#remove{
+    padding:5px 10px 10px 10px;
+    background-color:rgb(240, 102, 102);
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#pagination{
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background .3s;
+    border: 1px solid #ddd;    
+}
+
+#pagination #anchor.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+  }
