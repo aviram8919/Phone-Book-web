@@ -5,7 +5,7 @@ Phone-Book web is a project where we can store the entered values and apply CRUD
 * [Technologies](#technologies)
 * [Setup](#setup)
 
-#Genreal info
+# Genreal info
 This project fetch the data from a table and make cahnges according to the given features. The web gives option to store update and delete the values stored in the database. The user can also search the name accordingly.
 
 ## Technologies
