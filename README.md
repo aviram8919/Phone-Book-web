@@ -16,7 +16,7 @@ Frontend
 
 Backend
 
-*PHP
+* PHP
 
 ## Setup
 To run this project download the file and run homepage.php on your localhost server.
