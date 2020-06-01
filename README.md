@@ -1,5 +1,5 @@
 # Phone-Book Web
-This project is to develope a web where we can store the entered values and apply CRUD using PHP.
+Phone-Book web is a project where we can store the entered values and apply CRUD using PHP.
  ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
